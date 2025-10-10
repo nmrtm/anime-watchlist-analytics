@@ -5,7 +5,7 @@ This project is a comprehensive, end-to-end analytics pipeline built on my perso
 
 ---
 
-## 🏢 **Project Context**  
+## 🏢 **Context**  
 Many existing anime datasets are outdated or incomplete, and generic “top anime” lists often fail to recommend shows that truly match individual tastes. Starting with my own watchlist, including sequels, prequels, spin-offs, and specials, this project fills the gap by creating a personal dataset using the Jikan API (an unofficial MyAnimeList API). It goes beyond individual titles, focusing on entire franchises including prequels, OVAs, TV specials etc., and their metadata.
 
 ---
@@ -72,7 +72,8 @@ Many existing anime datasets are outdated or incomplete, and generic “top anim
 ---
 
 ## 📁 **Files in this Repo**  
-- `README.md`: Project overview and documentation.  
+- `README.md`: Project overview and documentation.
+- `anime_list.py`: Module containing anime watch list titles.
 - `phase1_collection.py`: Data collection scripts for fetching and batch processing anime metadata via Jikan API.  
 - `phase2_cleaning.ipynb`: Notebook for cleaning, filtering, and aggregating raw data.  
 - `phase3_viz.ipynb`: Notebook for exploratory data analysis and visualisations.  
